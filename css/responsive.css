@@ -1,0 +1,1004 @@
+/*=== XX-Large device responsive css Area ===*/
+@media ( max-width : 1400px ) {
+    
+}
+
+/*=== X-Large device responsive css Area ===*/
+@media ( min-width : 1200px) and ( max-width : 1399.98px ) {
+    
+}
+
+/*=== Large device responsive css Area ===*/
+@media ( min-width : 992px) and ( max-width : 1199.98px ) {
+    /* Navbar area  */
+
+    /* #navbar .navbar-nav .nav-item {
+        margin-left: 20px;
+    } */
+
+/* Services area  */
+    .cervice-items-content p {
+        padding: 0 33px;
+    }
+
+/* Team area  */
+    .team-content p {
+        padding: 0 25px;
+    }
+
+    .oliva_p {
+        padding: 0 20px !important;
+    }
+
+    .ashley_p {
+        padding: 0 25px !important;
+    }
+
+/* Skills area  */
+    .circle-chart__percent {
+        font-size: 7px;
+    }
+
+/* Portfolio area  */
+    .portfolio-button button {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+
+}
+
+/*=== Mediam device responsive css Area ===*/
+@media ( min-width : 768px) and ( max-width : 991.98px ) {
+      /* Navbar area  */
+      #navbar {
+        padding: 30px 10px;
+    }
+    .navbar-brand {
+        margin-top: 0;
+    }
+
+    #navbar i {
+        color: #fff;
+        font-size   : 24px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+        padding: 7px 15px;
+        margin-right: 40px;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    
+
+
+
+
+
+
+    #navbar .navbar-nav {
+        background-color: #c86a40;
+        margin-top: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    #navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        padding: .3rem 0;
+    }
+
+    .bg_hover {
+        background-color: transparent;
+    }
+
+/* Banner area  */
+    #banner {
+        padding: 160px 0px;
+    }
+
+    .banner-header h1 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .banner-button button {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+/* Services area  */
+    #service {
+        padding: 80px 0;
+    }
+
+    #service .common-header h3 {
+        font-size: 26px;
+    }
+
+    #service .common-header h3::after {
+        top: 50px;
+    }
+
+    #service .common-header p {
+        font-size: 16px;
+        padding: 0 80px;
+    }
+
+    .service-items {
+        margin-bottom   : 80px;
+    }
+
+    .cervice-items-content h4 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 4px;
+    }
+/* Team area  */
+    #team {
+        padding: 80px 0;
+    }
+
+    #team .common-header h3 {
+        font-size: 26px;
+    }
+
+    #team .common-header h3::after {
+        top: 50px;
+    }
+
+    #team .common-header p {
+        font-size: 16px;
+        margin-top: 50px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .team-items {
+        margin-top: 80px;
+    }
+
+    .team-images img {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .team-content h5 {
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .team-content span {
+        font-size: 16px;
+    }
+
+/* Skills area  */
+    #skill {
+       padding: 80px 0;
+    }
+
+    #skill .common-header h3 {
+        font-size: 26px;
+    }
+
+    #skill .common-header h3::after {
+        top: 50px;
+    }
+
+    #skill .common-header p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+
+    .circle-chart {
+        width:  130px;
+        height: 130px;
+    }
+
+    .circle-chart__percent {
+        font-size: 5px;
+    }
+
+    .skill_bar_title h4 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .skill-bar-items {
+        margin-bottom: 70px;
+    }
+/* Portfolio area  */
+    #portfolio {
+        padding: 80px 0;
+    }
+
+    #portfolio .common-header h3 {
+        font-size: 26px;
+    }
+
+    #portfolio .common-header h3::after {
+        top: 50px;
+    }
+
+    #portfolio .common-header p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+
+    .portfolio-button button {
+        font-size: 17px;
+        padding: 10px 17px;
+    }
+
+    .portfolio-items h4 {
+        font-size: 18px;
+    }
+
+    .portfolio-projects-btn a {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+/* Testimonial area  */
+    #testimonial {
+       padding: 80px 0;
+    }
+
+    #testimonial .common-header h3 {
+        font-size: 26px;
+    }
+
+    #testimonial .common-header h3::after {
+        top: 50px;
+    }
+
+    #testimonial .common-header p {
+        font-size: 16px;
+       margin: 40px 0;
+    }
+
+    .testimonial-man{
+        width: 110px !important;
+        margin: 8px auto !important;
+    }
+
+    .testimonial-man-content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .testimonial-man-content em {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .testimonial-man-content h4 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .testimonial-man-content span {
+        font-size: 16px;
+    }
+
+/* Contact area  */
+    #contact {
+        padding: 80px 0;
+    }
+
+    #contact .common-header h3 {
+        font-size: 26px;
+    }
+
+    #contact .common-header h3::after {
+        top: 50px;
+    }
+
+    #contact .common-header p {
+        font-size: 16px;
+        padding: 0 50px;
+    }
+
+    .contac-btn button {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+
+    .footer-content a {
+        font-size: 16px;
+        margin-right: 30px;
+    }
+
+    #bottom-top_btn {
+        font-size: 16px;
+        padding: 12px 15px;
+        right: 25px;
+    }
+}
+
+/*=== Smoll device responsive css Area ===*/
+@media ( min-width : 576px) and ( max-width : 767.98px ) {
+    /* Navbar area  */
+    #navbar {
+        padding: 20px 10px;
+    }
+    .navbar-brand {
+        margin-top: 0;
+    }
+
+    #navbar i {
+        color: #fff;
+        font-size   : 20px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+        padding: 5px 12px;
+        margin-right: 40px;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #navbar .navbar-nav {
+        background-color: #c86a40;
+        margin-top: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    #navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding: .3rem 0;
+    }
+
+    .bg_hover {
+        background-color: transparent;
+    }
+
+/* Banner area  */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+
+    .banner-header h1 {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+
+    .banner-button {
+        margin-top: 50px;
+    }
+
+    .banner-button button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /* Services area  */
+    #service {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #service .common-header h3 {
+        font-size: 22px;
+    }
+
+    #service .common-header h3::after {
+        top: 46px;
+        width: 80px;
+    }
+
+    #service .common-header p {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .service-items {
+        margin-bottom: 70px;
+    }
+
+    .service-items-icons img {
+        width: 70px;
+    }
+
+    .cervice-items-content h4 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .cervice-items-content p {
+        font-size: 14px;
+    }
+
+/* Team area  */
+    #team {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #team .common-header h3 {
+        font-size: 21px;
+    }
+
+    #team .common-header h3::after {
+        top: 48px;
+    }
+
+    #team .common-header p {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 20px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .team-images img {
+        width: 115px !important;
+        height: 115px !important;
+    }
+
+    .team-content h5 {
+        font-size: 20px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+
+    .team-content span {
+        font-size: 14px;
+    }
+
+    .team-content p {
+        font-size: 14px;
+        padding: 0 20px;
+        margin-bottom: 16px;
+    }
+
+    .team-social-link i {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .team-items {
+        margin-bottom: 70px;
+    }
+
+/* Skills area  */
+    #skill {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #skill .common-header h3 {
+        font-size: 22px;
+    }
+
+    #skill .common-header h3::after {
+        top: 50px;
+    }
+
+    #skill .common-header p {
+        font-size: 14px;
+        margin-top: 46px;
+        margin-bottom: 60px;
+    }
+
+    .circle-chart__percent {
+        font-size: 7px;
+    }
+
+    .skill_bar_title h4 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .circle-chart {
+        width: 110px;
+        height: 110px;
+    }
+
+    .skill-bar-items {
+        margin-bottom: 55px;
+    }
+
+/* Portfolio area  */
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    #portfolio .common-header h3 {
+        font-size: 22px;
+    }
+
+    #portfolio .common-header h3::after {
+        top: 50px;
+    }
+
+    #portfolio .common-header p {
+        font-size: 14px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-button button {
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    .portfolio-items {
+        margin-top: 60px;
+    }
+
+    .portfolio-items h4 {
+        font-size: 15px;
+    }
+
+    .portfolio-projects-btn a {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+
+    .portfolio-projects-btn {
+        margin-top: 70px;
+    }
+
+/* Testimonial area  */
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #testimonial .common-header h3 {
+        font-size: 21px;
+    }
+
+    #testimonial .common-header h3::after {
+        top: 60px;
+    }
+
+    #testimonial .common-header p {
+        font-size: 15px;
+    }
+
+    .testimonial-man-content em {
+        padding: 0 50px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .testimonial-man-content h4 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .testimonial-man-content span {
+        font-size: 15px;
+    }
+
+    .testimonial-man{
+        width: 100px !important;
+        margin: 8px auto !important;
+    }
+
+    .testimonial-man-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+/* Contact area  */
+    #contact {
+        padding: 50px 0;
+    }
+
+    #contact .common-header h3 {
+        font-size: 22px;
+    }
+
+    #contact .common-header h3::after {
+        top: 45px;
+    }
+
+    #contact .common-header p {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .contact-from .name-input {
+        font-size: 14px;
+        padding: 12px;
+        width: 100%;
+    }
+
+    .contact-from .email-input {
+        font-size: 14px;
+        padding: 12px;
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .contact-from .text-area-input {
+        font-size: 14px;
+    }
+
+    .contac-btn button {
+        font-size: 14px;
+        padding: 10px 22px;
+        margin-top: 40px;
+    }
+
+    .footer-content a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    #bottom-top_btn {
+        font-size: 15px;
+        padding: 10px 12px;
+        bottom: 100px;
+    }
+}
+
+/*=== X-Smoll device responsive css Area ===*/
+@media ( max-width : 575.98px ) {
+/* Navbar area  */
+    #navbar {
+        padding: 20px 10px;
+    }
+    .navbar-brand {
+        margin-top: 0;
+    }
+
+    #navbar i {
+        color: #fff;
+        font-size   : 20px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+        padding: 5px 12px;
+        margin-right: 40px;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    #navbar .navbar-nav {
+        background-color: #c86a40;
+        margin-top: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    #navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        padding: .3rem 0;
+    }
+
+    .bg_hover {
+        background-color: transparent;
+    }
+
+/* Banner area  */
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 90px;
+    }
+
+    .banner-header h1 {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+
+    .banner-button {
+        margin-top: 50px;
+    }
+
+    .banner-button button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    /* Services area  */
+    #service {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #service .common-header h3 {
+        font-size: 22px;
+    }
+
+    #service .common-header h3::after {
+        top: 46px;
+        width: 80px;
+    }
+
+    #service .common-header p {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .service-items {
+        margin-bottom: 70px;
+    }
+
+    .service-items-icons img {
+        width: 70px;
+    }
+
+    .cervice-items-content h4 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .cervice-items-content p {
+        font-size: 14px;
+    }
+
+/* Team area  */
+    #team {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #team .common-header h3 {
+        font-size: 21px;
+    }
+
+    #team .common-header h3::after {
+        top: 48px;
+    }
+
+    #team .common-header p {
+        font-size: 14px;
+        padding: 0 10px;
+        line-height: 20px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .team-images img {
+        width: 115px !important;
+        height: 115px !important;
+    }
+
+    .team-content h5 {
+        font-size: 20px;
+        margin-top: 22px;
+        margin-bottom: 10px;
+    }
+
+    .team-content span {
+        font-size: 14px;
+    }
+
+    .team-content p {
+        font-size: 14px;
+        padding: 0 20px;
+        margin-bottom: 16px;
+    }
+
+    .team-social-link i {
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .team-items {
+        margin-bottom: 70px;
+    }
+
+/* Skills area  */
+    #skill {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    #skill .common-header h3 {
+        font-size: 22px;
+    }
+
+    #skill .common-header h3::after {
+        top: 50px;
+    }
+
+    #skill .common-header p {
+        font-size: 14px;
+        margin-top: 46px;
+        margin-bottom: 60px;
+    }
+
+    .circle-chart__percent {
+        font-size: 7px;
+    }
+
+    .skill_bar_title h4 {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .circle-chart {
+        width: 110px;
+        height: 110px;
+    }
+
+    .skill-bar-items {
+        margin-bottom: 55px;
+    }
+
+/* Portfolio area  */
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    #portfolio .common-header h3 {
+        font-size: 22px;
+    }
+
+    #portfolio .common-header h3::after {
+        top: 50px;
+    }
+
+    #portfolio .common-header p {
+        font-size: 14px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-button button {
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    .portfolio-items {
+        margin-top: 60px;
+    }
+
+    .portfolio-items h4 {
+        font-size: 15px;
+    }
+
+    .portfolio-projects-btn a {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+
+    .portfolio-projects-btn {
+        margin-top: 70px;
+    }
+
+/* Testimonial area  */
+    #testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #testimonial .common-header h3 {
+        font-size: 21px;
+    }
+
+    #testimonial .common-header h3::after {
+        top: 60px;
+    }
+
+    #testimonial .common-header p {
+        font-size: 15px;
+    }
+
+    .testimonial-man-content em {
+        padding: 0 50px;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .testimonial-man-content h4 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .testimonial-man-content span {
+        font-size: 15px;
+    }
+
+    .testimonial-man{
+        width: 100px !important;
+        margin: 8px auto !important;
+    }
+
+    .testimonial-man-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+/* Contact area  */
+    #contact {
+        padding: 50px 0;
+    }
+
+    #contact .common-header h3 {
+        font-size: 22px;
+    }
+
+    #contact .common-header h3::after {
+        top: 45px;
+    }
+
+    #contact .common-header p {
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .contact-from .name-input {
+        font-size: 14px;
+        padding: 12px;
+        width: 100%;
+    }
+
+    .contact-from .email-input {
+        font-size: 14px;
+        padding: 12px;
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .contact-from .text-area-input {
+        font-size: 14px;
+    }
+
+    .contac-btn button {
+        font-size: 14px;
+        padding: 10px 22px;
+        margin-top: 40px;
+    }
+
+    .footer-content a {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    #bottom-top_btn {
+        font-size: 15px;
+        padding: 10px 12px;
+        bottom: 100px;
+    }
+
+}
+

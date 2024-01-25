@@ -30,18 +30,11 @@ html {
     left        : 0;
     width       : 100%;
     z-index     : 999;
-}
-
-.navbar-brand {
-    margin-top: 5rem;
-}
-
-#navbar .navbar-nav {
-    margin-top: 5.2rem;
+    padding     : 3.5rem 0;
 }
 
 #navbar .navbar-nav .nav-item {
-   margin-left  : 3.2rem;
+   margin-left  : 2rem;
 }
 
 #navbar .navbar-nav .nav-item:first-child {
@@ -51,7 +44,7 @@ html {
 #navbar .navbar-nav .nav-item .nav-link {
     font-family     : 'Titillium Web', sans-serif;
     font-weight     : 400;
-    font-size       : 1.6rem;
+    font-size       : 1.4rem;
     color           : #ffffff;
     text-transform  : uppercase;
     padding         : .3rem 1.4rem;
@@ -67,6 +60,29 @@ html {
 #navbar .navbar-nav .nav-item .nav-link:hover {
     background-color    : #643a79;
 }
+
+.sticky-menu {
+    position    : fixed !important;
+    top : 0;
+    left    : 0;
+    width   : 100%;
+    padding : 2.5rem 0 !important;
+    animation   : nav-sticky 2s linear;
+    background-color: #c86a40;
+}
+
+@keyframes nav-sticky {
+    from {
+        top : -70px;
+        left    : 0;
+    }
+
+    to {
+        top : 0;
+        left    : 0;
+    }
+}
+
 /*========================= Navbar css end ==========================*/
 
 /*================== Banner css start ==========================*/
@@ -78,7 +94,7 @@ html {
 .banner-header h1 {
     font-family : 'Titillium Web', sans-serif;
     font-weight : 700;
-    font-size   : 4.8rem;
+    font-size   : 3.8rem;
     color       : #f7f3ea;
     line-height : 6rem;
 }
@@ -93,7 +109,7 @@ html {
     font-size           : 1.8rem;
     color               : #fff;
     line-height         : 2.6rem;
-    padding             : 2.5rem 10rem;
+    padding             : 2rem 5rem;
     text-transform      : uppercase;
     background-color    : #eb7d4b;
     border              : none;
@@ -120,7 +136,7 @@ html {
     font-weight         : 700;
     font-size           : 4rem;
     color               : #fff;
-    line-height         : 2.9rem;
+    line-height         : 2.5rem;
     text-transform      : uppercase;
     position            : relative;
 }
@@ -408,7 +424,7 @@ html {
     font-size           : 2.3rem;
     color               : #fff;
     text-transform      : uppercase;
-    padding             : 2.5rem 6.8rem;
+    padding             : 2rem 5rem;
     border-radius       : .5rem;
     border-bottom       : .5rem solid #14a58c;
     transition          : all linear .3s;
@@ -538,7 +554,7 @@ html {
     color               : #ffffff;
     font-size           : 1.8rem;
     text-transform      : capitaliz;
-    width               : 41.5rem;
+    width               : 47%;
     margin-right        : 3.2rem;
     border              : none;
     outline             : none;
@@ -566,7 +582,7 @@ html {
     outline             : none;
     padding             : 2rem 2.5rem;
     border-radius       : .5rem;
-    width               : 41.5rem;
+    width               : 47%;
 }
 
 .contact-from .email-input::placeholder {
@@ -607,7 +623,7 @@ html {
     font-size           : 2.3rem;
     color               : #fff;
     text-transform      : uppercase;
-    padding             : 2.5rem 6.8rem;
+    padding             : 2rem 5rem;
     margin-top          : 6.5rem;
     border-radius       : .5rem;
     border              : 0;
@@ -629,11 +645,11 @@ html {
 .footer-content a {
     font-family         : 'Titillium Web', sans-serif;
     font-weight         : 600;
-    font-size           : 2.8rem;
+    font-size           : 2rem;
     color               : #fff;
     text-transform      : capitalize;
     transition          : all linear .5s;
-    margin-right        : 6rem;
+    margin-right        : 4rem;
 }
 
 .footer-content a:last-child {
@@ -643,5 +659,23 @@ html {
 .footer-content a:hover {
     color   : #30bae7;
     letter-spacing: .1rem;
+}
+
+#bottom-top_btn {
+    position: fixed;
+    bottom: 5rem;
+    right: 4rem;
+    padding: 1.5rem 1.5rem;
+    background-color: #c86a40;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .5rem;
+    transition: all ease .5s;
+    display: none;
+}
+
+#bottom-top_btn:hover {
+    margin-bottom: .3rem;
 }
 /*================== Footer css end ==========================*/
